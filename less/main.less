@@ -1,0 +1,20 @@
+.title-setup {
+    .flex-setup();
+}
+.title-container {
+    width: 80%;
+    height: 80vh;
+    background-image: url(../assets/home.png);
+    border: @test-border;
+    .flex-setup(@direction:column, @align:center);
+    h1 {
+        font-size: 3.5rem;
+        color: white;
+        text-align: center;
+        margin-bottom: 5px;
+        // border: @test-border;
+    }
+    a {
+        .button(white, black, 1.8rem);
+    }
+}
